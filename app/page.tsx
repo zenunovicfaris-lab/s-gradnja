@@ -12,7 +12,7 @@ export default function HomePage() {
   return (
     <>
       <Navbar />
-      <main>
+      <main className="overflow-x-hidden w-full">
         <section id="hero">
           <HeroSection />
         </section>

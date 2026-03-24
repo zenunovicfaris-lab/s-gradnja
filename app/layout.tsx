@@ -54,7 +54,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html
       lang="bs"
-      className={`${oswald.variable} ${inter.variable} scroll-smooth`}
+      className={`${oswald.variable} ${inter.variable} scroll-smooth overflow-x-hidden`}
     >
       <head>
         <script
@@ -62,7 +62,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body className="font-inter bg-white text-[#0a0a0a] antialiased">
+      <body className="font-inter bg-white text-[#0a0a0a] antialiased overflow-x-hidden max-w-full">
         {children}
       </body>
     </html>

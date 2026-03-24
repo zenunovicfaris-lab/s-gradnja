@@ -12,7 +12,7 @@ export default function HeroSection() {
   return (
     <section
       ref={ref}
-      className="relative h-screen min-h-[650px] flex items-center justify-center overflow-hidden"
+      className="relative h-screen min-h-[650px] flex items-center justify-center overflow-hidden w-full"
     >
       {/* Background video with parallax */}
       <motion.div
