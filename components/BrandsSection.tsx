@@ -50,10 +50,16 @@ export default function BrandsSection() {
         >
           <LogoLoop
             logos={logos}
-            speed={40}
+            speed={80}
+            direction="left"
             logoHeight={44}
-            gap={60}
+            gap={56}
             pauseOnHover
+            hoverSpeed={0}
+            fadeOut
+            fadeOutColor="#ffffff"
+            scaleOnHover
+            ariaLabel="Brendovi sa kojima radimo"
           />
         </motion.div>
       </div>
