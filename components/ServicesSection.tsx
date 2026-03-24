@@ -84,7 +84,7 @@ export default function ServicesSection() {
           </p>
           <div className="w-12 h-0.5 bg-primary mx-auto my-3" />
           <h2 className="font-oswald font-bold text-white text-4xl md:text-6xl uppercase leading-tight mb-4">
-            Kompletna usluga od A do Z
+            Kompletna usluga od A do Ž
           </h2>
           <p className="text-white/60 font-inter text-lg max-w-xl mx-auto">
             Sistem ključ u ruke – radimo sa materijalom ili bez
